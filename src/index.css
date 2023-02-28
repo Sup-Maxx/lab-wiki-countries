@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.NavBar {
+  background-color: blue;
+  padding: 15px 0 ;
+  display: flex;
+}
+
+.active {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: wheat;
+}
+
+.active:hover {
+  color: brown;
+}
